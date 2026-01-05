@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title>Login | MS_Machate</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Boxicons -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+     <form role="form" aria-labelledby="login-header">
+         <div class="wrapper">
+      <div class="login_box">
+        <div class="login-header" id="login-header">
+          <span>Login</span>
+        </div>
+        
+        <div class="input_box">
+          <input type="text" name="user" id="user" class="input-field" aria-describedby="user-error" aria-required="true" autocomplete="username">
+          <label for="user" class="label">Username</label>
+          <i class="bx bx-user icon" aria-hidden="true"></i>
+       </div>
+       <div class="input_box">
+          <input type="password" name="pass" id="pass" class="input-field" aria-describedby="pass-error" aria-required="true" autocomplete="current-password">
+          <label for="pass" class="label">Password</label>
+          <i class="bx bx-lock-alt" aria-hidden="true"></i>
+       </div>
+       <div class="remember-forgot">
+         <div class="remember-me">
+           <input type="checkbox" id="remember" aria-describedby="remember-label">
+           <label for="remember" id="remember-label"> Remember me</label>
+         </div>
+         <div class="forgot">
+           <a href="#" aria-label="Forgot password link">Forgot password?</a>
+         </div>
+       </div>
+       <div class="input_box">
+         <input type="submit" class="input-submit" value="Login" aria-describedby="submit-status">
+       </div>
+       <div class="register">
+         <span>Don't have an account? <a href="#" aria-label="Register new account">Register</a></span>
+       </div>
+      </div>
+    </div>
+     </form>
+     <footer class="copyright">
+         <p>&copy; 2026 Ludiflex. All rights reserved.</p>
+     </footer>
+     <script src="script.js"></script>
+  </body>
+</html>
